@@ -1,0 +1,49 @@
+body{
+    background-color: whitesmoke;
+}
+form{
+    width: 500px;
+    margin: auto;
+    background: thistle;
+    border-radius:50px 0 50px 0;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: blueviolet;
+    padding: 15px 0 0 0;
+}
+fieldset{
+    border-radius: 0 0 50px 0;
+    border-color: blue;
+    
+}
+legend{
+    color: blue;
+    font-family: fantasy;
+}
+label{
+    width: 150px;
+    padding: 0 0 10px 0;
+    font-weight: bold;
+    display: inline-block;
+}
+.c{
+    background-color: powderblue;
+    width: 300px;
+
+}
+#s{
+    height: 50px;
+}
+input[type="button"] ,[type="reset"] {
+    width: 180px;
+    margin:0 20px  ;
+    padding:  10px 0;
+    background-color: rosybrown;
+    color: beige;
+}
+input[type="button"]:hover,[type="reset"]:hover {
+    background-color: yellowgreen;
+    transition: 1s;
+}

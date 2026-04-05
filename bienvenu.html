@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #eef2f3;
+    }
+    h1{
+        text-align: center;
+        color: #2c3e50;
+    }
+    caption{
+        font-size: 20px;
+        margin: 0 0 15px 0;
+    }
+    th , td {
+        border: solid 1px #999;
+        text-align: center;
+        padding: 8px;
+    }
+    th{
+        background-color: #34495e;
+        color: white;
+    }
+    table{
+        width: 95%;
+        margin: 20px auto;
+        background-color: white;
+        border-collapse: collapse;
+    }
+    .a{
+        background-color: #f39c12;
+        font-weight: bold;
+    }
+    .b{
+        background-color: #2ecc71;
+        color: white;
+    }
+    .n{
+        background-color: #e74c3c;
+        color: white;
+    }
+</style>
+<body>
+<h1>Bienvenue - Gestion des Révision</h1>
+<table border="1">
+    <caption>Planning des réservation hôtel</caption>
+    <tr>
+        <th rowspan="2">client</th>
+        <th rowspan="2">Types</th>
+        <th colspan="2">Séjour</th>
+        <th rowspan="2">Chambre</th>
+        <th rowspan="2">Statut</th>
+    </tr>
+    <tr>
+        <th>Entrée</th>
+        <th>Sortie</th>
+    </tr>
+    <tr>
+        <td rowspan="2" class="a">Ahmed</td>
+        <td class="a">VIP</td>
+        <td class="a">01/04</td>
+        <td class="a">05/04</td>
+        <td class="a">Suite</td>
+        <td  class="b">confirmé</td>
+    </tr>
+    <tr>
+        <td>standard</td>
+        <td>06/04</td>
+        <td>08/04</td>
+        <td>simple</td>
+        <td class="n">En attend</td>
+    </tr>
+    <tr>
+        <td>Salma</td>
+        <td>standard</td>
+        <td colspan="2">Week-end</td>
+        <td>double</td>
+        <td class="b">confirmé</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Youssef</td>
+        <td>business</td>
+        <td>02/04</td>
+        <td>03/04</td>
+        <td>simple</td>
+        <td class="b">confirmé</td>
+    </tr>
+    <tr>
+        <td colspan="3">conférence inculse </td>
+        <td>Salle A</td>
+        <td class="b">OK</td>
+    </tr>
+    <tr>
+        <td>Extension</td>
+        <td>04/04</td>
+        <td>06/04</td>
+        <td>Suite</td>
+        <td  class="n">En attend</td>
+    </tr>
+</table>
+</body>
+</html>
